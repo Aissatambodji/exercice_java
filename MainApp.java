@@ -17,7 +17,6 @@ MedicamentService medicamentService = new MedicamentService();
 PrescriptionService prescriptionService = new PrescriptionService();
 int choix;
 do {
-System.out.println("\n=== MENU ===");
 System.out.println("1. Ajouter patient");
 System.out.println("2. Liste patients");
 System.out.println("3. Supprimer patient");
@@ -73,3 +72,4 @@ choix = sc.nextInt(); sc.nextLine();
         System.out.println("Programme terminé.");
     }
 }
+
